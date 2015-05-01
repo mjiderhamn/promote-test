@@ -7,14 +7,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>se.jiderhamn</groupId>
   <artifactId>promote-test</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   <packaging>jar</packaging>
   <name>Testing post build promote in Maven</name>
   <scm>
     <connection>scm:git:git@github.com:mjiderhamn/protote-test.git</connection>
     <developerConnection>scm:git:git@github.com:mjiderhamn/promote-test.git</developerConnection>
     <url>https://github.com/mjiderhamn/promote-test.git</url>
-    <tag>promote-test-1.0.0</tag>
+    <tag>promote-test-1.0.2</tag>
   </scm>
   <build>
     <plugins>
