@@ -21,7 +21,7 @@
       <plugin>
         <groupId>se.jiderhamn</groupId>
         <artifactId>promote-maven-plugin</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>0.1.0</version>
         <!-- TODO Document -->
         <executions>
           <execution>
