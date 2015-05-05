@@ -19,13 +19,27 @@
   <build>
     <plugins>
       <plugin>
+        <groupId>se.jiderhamn</groupId>
+        <artifactId>promote-maven-plugin</artifactId>
+        <version>0.1-SNAPSHOT</version>
+        <!-- TODO Document -->
+        <executions>
+          <execution>
+            <goals>
+              <goal>make-promotable</goal>
+              <!-- TODO Add more here -->
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
         <!--<groupId>org.apache.maven</groupId>-->
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
           <!-- Dummy to force not doing anything during prepare; http://stackoverflow.com/questions/11421062/maven-which-goal-to-use-as-no-op-for-scripting-purposes -->
           <!-- preparationGoals>help:help</preparationGoals -->
           <!-- Testing to deploy as part of preparation -->
-          <preparationGoals>se.jiderhamn:promote-maven-plugin:init deploy:deploy</preparationGoals>
+          <!--<preparationGoals>se.jiderhamn:promote-maven-plugin:init deploy:deploy</preparationGoals>-->
           
           <!-- When releasing, do nothing but the actual deploy -->
           <goals>deploy:deploy</goals>
