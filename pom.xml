@@ -49,7 +49,7 @@
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
           <!-- Do nothing else in prepare, than setting completionGoals to promote:artifacts deploy:deploy -->
-          <preparationGoals>promote:prepare</preparationGoals>
+          <!-- preparationGoals>promote:prepare</preparationGoals -->
           
           <!-- TODO error -->
           <goals>deploy:deploy</goals>
