@@ -49,7 +49,8 @@
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
           <!-- Dummy to force not doing anything during prepare; http://stackoverflow.com/questions/11421062/maven-which-goal-to-use-as-no-op-for-scripting-purposes -->
-          <preparationGoals>promote:artifacts deploy:deploy</preparationGoals>
+          <preparationGoals>promote:artifacts</preparationGoals>
+          <completionGoals>deploy:deploy</completionGoals>
           
           <!-- TODO error -->
           <goals>deploy:deploy</goals>
