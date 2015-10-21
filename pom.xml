@@ -33,7 +33,7 @@
       <plugin>
         <groupId>se.jiderhamn</groupId>
         <artifactId>promote-maven-plugin</artifactId>
-        <version>0.1.6</version>
+        <version>0.5.0</version>
         <!-- TODO Document -->
         <executions>
           <execution>
