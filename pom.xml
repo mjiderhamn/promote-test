@@ -8,7 +8,10 @@
   <groupId>se.jiderhamn</groupId>
   <artifactId>promote-test</artifactId>
   <version>1.0.13-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <modules>
+    <module>promote-child</module>
+  </modules>
+  <packaging>pom</packaging>
   <name>Testing post build promote in Maven</name>
   <scm>
     <connection>scm:git:git@github.com:mjiderhamn/protote-test.git</connection>
