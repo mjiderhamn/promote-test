@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>se.jiderhamn</groupId>
   <artifactId>promote-test</artifactId>
-  <version>1.0.13</version>
+  <version>1.0.14-SNAPSHOT</version>
   <modules>
     <module>promote-child</module>
   </modules>
@@ -12,7 +12,7 @@
     <connection>scm:git:git@github.com:mjiderhamn/protote-test.git</connection>
     <developerConnection>scm:git:git@github.com:mjiderhamn/promote-test.git</developerConnection>
     <url>https://github.com/mjiderhamn/promote-test.git</url>
-    <tag>promote-test-1.0.13</tag>
+    <tag>promote-test-1.0.0</tag>
   </scm>
 
   <distributionManagement>
